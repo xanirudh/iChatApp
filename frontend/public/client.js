@@ -1,4 +1,4 @@
-const socket = io()
+const socket = io('https://evening-mesa-50568.herokuapp.com/');
 
 let name;
 let textarea = document.querySelector('#textarea')
